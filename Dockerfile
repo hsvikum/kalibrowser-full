@@ -14,7 +14,7 @@ python \
 python-numpy \
 unzip \
 geany \
-iceweasel
+iceweasel \
 menu && \
 cd /root && git clone https://github.com/kanaka/noVNC.git && \
 cd noVNC/utils && git clone https://github.com/kanaka/websockify websockify && \
