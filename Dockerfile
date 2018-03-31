@@ -30,6 +30,6 @@ RUN apt-get update -y && apt-get dist-upgrade -y
 
 RUN apt-get install -y kali-linux-full
 
-RUN apt-get install -y gnome gdm3
+RUN apt-get install -y gnome
 
 CMD /startup.sh
