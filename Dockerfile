@@ -13,9 +13,7 @@ wget \
 python \
 python-numpy \
 unzip \
-geany \
-firefox \
-ubuntu-gnome-desktop && \
+geany && \
 cd /root && git clone https://github.com/kanaka/noVNC.git && \
 cd noVNC/utils && git clone https://github.com/kanaka/websockify websockify && \
 cd /root
@@ -30,6 +28,7 @@ RUN apt-get update -y && apt-get dist-upgrade -y
 
 RUN apt-get install -y kali-linux-full
 
+RUN apt-get install -y firefox ubuntu-gnome-desktop 
 RUN apt-get install -y gnome
 
 CMD /startup.sh
