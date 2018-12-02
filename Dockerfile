@@ -20,7 +20,7 @@ cd /root
 ADD startup.sh /startup.sh
 
 RUN chmod 0755 /startup.sh && \
-apt-get autoremove && \
+apt-get autoremove -y && \
 rm -rf /var/lib/apt/lists/*
 
 #The Kali Docker Image Is Out Of Date. : (
