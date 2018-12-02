@@ -14,8 +14,8 @@ python \
 python-numpy \
 unzip \
 geany \
-iceweasel \
-menu && \
+firefox \
+ubuntu-gnome-desktop && \
 cd /root && git clone https://github.com/kanaka/noVNC.git && \
 cd noVNC/utils && git clone https://github.com/kanaka/websockify websockify && \
 cd /root
